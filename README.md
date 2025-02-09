@@ -1,8 +1,4 @@
-# blank
-
-blank
-
 ## Attributes
 
-- **Database**: mongodb
+- **Database**: postgresql
 - **Storage Adapter**: localDisk

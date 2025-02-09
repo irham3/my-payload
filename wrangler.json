@@ -1,0 +1,12 @@
+{
+  "name": "my-payload",
+  "compatibility_date": "2025-02-09",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "NODE_VERSION": "22.12.0",
+    "PNPM_VERSION": "10.2.0"
+  },
+  "pages_build_output_dir": ".vercel/output/static"
+}
