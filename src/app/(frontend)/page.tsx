@@ -1,4 +1,4 @@
-// export const runtime = "edge";
+;
 
 import { headers as getHeaders } from 'next/headers.js'
 import Image from 'next/image'

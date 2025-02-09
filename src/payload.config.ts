@@ -1,4 +1,4 @@
-// export const runtime = "edge";
+;
 
 // storage-adapter-import-placeholder
 import { postgresAdapter } from '@payloadcms/db-postgres'
