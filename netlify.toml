@@ -1,0 +1,2 @@
+[build]
+  command = "corepack disable && npx pnpm install && npx pnpm run build"
