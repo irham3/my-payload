@@ -9,7 +9,7 @@ services:
       - .:/home/node/app
       - node_modules:/home/node/app/node_modules
     working_dir: /home/node/app/
-    command: sh -c "npm install -g pnpm && pnpm install npx pnpm@latest --activate && npx pnpm install && npx pnpm dev"
+    command: sh -c "corepack disable && npm install -g pnpm && pnpm install npx pnpm@latest --activate && npx pnpm install && npx pnpm dev"
     depends_on:
       - mongo
       # - postgres
